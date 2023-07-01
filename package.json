@@ -1,0 +1,16 @@
+{
+  "name": "new-date",
+  "version": "1.0.0",
+  "description": "Date",
+  "main": "index.js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
