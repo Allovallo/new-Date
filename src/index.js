@@ -143,3 +143,23 @@
 
 // console.log(JSON.parse(localStorage.getItem('my-data')));
 
+import '../src/css/common.css';
+import '../src/css/feedback-form.css';
+
+const refs = {
+    form: document.querySelector('js-feedback-form'),
+    textarea: document.querySelector('js-feedback-form textarea'),
+}
+
+refs.form.addEventListener('submit', onFormSubmit);
+refs.textarea.addEventListener('input', onTextareaInput);
+
+function onFormSubmit(evt) {
+
+}
+
+function onTextareaInput(evt) {
+    
+}
+
+function populateMessageOutput() {}
