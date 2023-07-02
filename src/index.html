@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JSON</title>
+    <title>Форма відгуку</title>
     <script type="module" src="index.js"></script>
 </head>
 <body>
-    <h1>Website is under construction</h1>
+    
+    <form class="feedback-form js-feedback-form">
+        <label for="">
+            <b>Ім'я</b>
+            <input type="text" name="name" placeholder="placefolder" value="Анонім"/>
+        </label>
+        <label for="">
+            <b>Повідомлення</b>
+            <textarea name="message" rows="6"></textarea>
+        </label>
+        <button type="submit">Залишити відгук</button>
+    </form>
+
 </body>
 </html>
